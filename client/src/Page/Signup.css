@@ -1,0 +1,76 @@
+
+
+/* Signup.css */
+
+/* Full-page container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #64748b; /* Tailwind bg-slate-500 equivalent */
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.signup-card {
+  width: 25rem;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.signup-card h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #1f2937; /* gray-800 */
+}
+
+/* Form group */
+.signup-card .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Form label */
+.signup-card label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #374151; /* gray-700 */
+}
+
+/* Form input */
+.signup-card input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db; /* gray-300 */
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.signup-card input:focus {
+  border-color: #3b82f6; /* blue-500 */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Signup button */
+.signup-btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #22c55e; /* green-500 */
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #16a34a; /* green-600 */
+}
