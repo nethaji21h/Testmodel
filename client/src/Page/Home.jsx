@@ -1,28 +1,5 @@
 
-// import React from "react"
-// import "./Home.css"
 
-// function Home() {
-//   return (
-//     <div className="card">
-//       <img
-//         src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8fDA%3D"
-//         alt=""
-//         className="card-image"
-//       />
-//       <div className="card-content">
-//         <h2 className="card-title">Delicious Pizza</h2>
-//         <p className="card-description">
-//           Freshly baked pizza with cheese, tomato, and toppings.
-//         </p>
-//         <p className="card-price">₹499</p>
-//         <button className="card-button">Order Now</button>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Home
 
 
 import React from "react"
